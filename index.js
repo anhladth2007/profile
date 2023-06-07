@@ -1,1 +1,257 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đào Trung Hiếu | Thông Tin </title>
+<link id="favicon" rel="shortcut icon" href="" type="image/x-icon">
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="vendor.css">
+<meta property="og:image" content="/favicon.png" />
+<meta name="twitter:image" content="/favicon.png" />
+<meta property="fb:app_id" content="0363434152">
+<meta itemprop="image" content="/favicon.png" />
+<meta name="twitter:card" content="product">
+<link rel="icon" href="/favicon.png" type="image/png" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="center">
+<div class="popup">
+<div class="title">
+Thông Báo
+</div>
+<div id="description">
+</div>
+<div class="dismiss-btn">
+<button id="dismiss-popup-btn">
+OK
+</button>
+</div>
+</div>
+</div>
+<div id="root">
+<div id="main">
+<div class="container">
+<header>
+
+<div id="cover-image" style="background-image: url('https://i.imgur.com/FJ3pL6f.jpg');"></div>
+<div id="profile-header">
+
+<div id="avatar-image" style="background-image: url('https://graph.facebook.com/100054403575923/picture?width=500&height=500&access_token=2712477385668128|b429aeb53369951d411e1cae8e810640');"></div>
+<div id="name">
+<p id="first-name" class="names">Trung Hiếu</p>
+<p id="last-name" class="names"></p>
+<div id="skills">
+<div class="skill-item" style="color: #ef9d64;">JavaScript</div>
+<div class="skill-item" style="color: #85D18A;">Html/Css</div>
+</div>
+</div>
+</div>
+<div id="content-body">
+<p class="drop-title">Liên Kết Cá Nhân</p>
+<div id="link-box">
+<div class="link-item">
+<div class="bio-story-thumb" style="background-image: url('https://i.imgur.com/oWVIQYS.png');"></div>
+<div class="link-content">
+<p>Facebook</p>
+<span onclick="window.open('https://www.facebook.com/Info.DaoTrungHieu', '_blank')">@Info.DaoTrungHieu</span>
+</div>
+<div class="link-btn">
+<div class="link-btn-chill light-orange" onclick="window.open('https://www.facebook.com/Info.DaoTrungHieu', '_blank')">OPEN</div>
+</div>
+</div>
+<div class="link-item">
+ <div class="bio-story-thumb" style="background-image: url('https://imgur.com/zSoqqs6.png');"></div>
+<div class="link-content">
+<p>Zalo</p>
+<span onclick="window.open('https://zalo.me/0363434152', '_blank')">Tính</span>
+</div>
+<div class="link-btn">
+<div class="link-btn-chill light-orange" onclick="window.open('https://zalo.me/0363434152', '_blank')">OPEN</div>
+</div>
+</div>
+<div class="link-item">
+<div class="bio-story-thumb" style="background-image: url('https://i.imgur.com/YcZOhiW.jpg');"></div>
+<div class="link-content">
+<p>TikTok</p>
+<span onclick="window.open('https://tiktok/@simpgai.anime', '_black')">ID: @simpgai.anime</span>
+</div>
+<div class="link-btn">
+<div class="link-btn-chill light-orange" onclick="window.open('https://tiktok/@simpgai.anime')">OPEN</div>
+</div>
+</div>
+<div class="link-item">
+<div class="bio-story-thumb" style="background-image: url('https://i.imgur.com/xcUncyt.jpg');"></div>
+<div class="link-content">
+<p>Arena of Valor</p>
+<span onclick="window.open('https://i.postimg.cc/50zzLC2g/cae47b6e-bca3-4516-a628-1a7bfea60568.png')">IG: Đây┇Rồi...?</span>
+</div>
+<div class="link-btn">
+<div class="link-btn-chill light-orange" onclick="window.open('https://i.postimg.cc/50zzLC2g/cae47b6e-bca3-4516-a628-1a7bfea60568.png')">OPEN</div>
+</div>
+</div>
+<div class="link-item">
+<div class="bio-story-thumb" style="background-image: url('https://i.imgur.com/PzG6C50.png');"></div>
+<div class="link-content">
+<p> CapCut </p>
+<span onclick="window.open('https://capcut/trunghieuwibu')">ID: @trunghieuwibu</span>
+</div>
+<div class="link-btn">
+<div class="link-btn-chill light-orange" onclick="window.open('https://capcutid/trunghieuwibu')">OPEN</div>
+</div>
+</div>
+<div class="link-item">
+<div class="bio-story-thumb" style="background-image: url('https://i.imgur.com/eQddb4M.jpg');"></div>
+<div class="link-content">
+<p> Genshin Impact </p>
+<span onclick="window.open('https://i.postimg.cc/MH38wtCK/received-3380792235538059.webp')">Stolen ảnh</span>
+</div>
+<div class="link-btn">
+<div class="link-btn-chill light-orange" onclick="window.open('https://i.postimg.cc/MH38wtCK/received-3380792235538059.webp')">OPEN</div>
+</div>
+</div>
+<div class="link-item">
+<div class="bio-story-thumb" style="background-image: url('https://i.imgur.com/bHtzPHD.jpg');"></div>
+<div class="link-content">
+<p> YouTube </p>
+<span onclick="window.open('https://youtube.com/channel/UCg2To_76Gh0R7pDkR9F-UTg')">Đào Trung Hiếu</span>
+</div>
+<div class="link-btn">
+<div class="link-btn-chill light-orange" onclick="window.open('https://youtube.com/channel/UCg2To_76Gh0R7pDkR9F-UTg')">OPEN</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</style>
+</head>
+<script type='text/javascript'>
+/*<![CDATA[*/
+// Số bông tuyết (Không khuyến khích nhiều hơn 30-40)
+var snowmax=40
+// Tùy chọn màu sắc cho tuyết, có thể nhiều màu khác nhau như bên dưới
+var snowcolor=new 
+  Array("#33CCFF")
+// Thiết lập font chữ để tạo ra tuyết, vì các font chữ khác nhau thì hình dạng dấu * cũng khác nhau
+var snowtype=new Array("Times","Arial","Times","Verdana")
+// Thiết lập ký tự tạo ra tuyết (Khuyến khích: *)
+var snowletter="❄️"
+// Thiết lập tốc độ rơi xuống (Đề nghị trong khoảng 0.3-2)
+var sinkspeed=0.3
+// Kích thước tối đa của bông tuyết
+var snowmaxsize=20
+// Kích thước tối thiểu của bông tuyết
+var snowminsize=1
+// Thiết lập vùng tuyết rơi
+// 1 cho toàn bộ trang web, 2 cho phần bên trái
+// 3 cho phần trung tâm, 4 cho phần bên phải
+var snowingzone=1
+// Không được chỉnh code ở bên dưới
+var snow=new Array()
+var marginbottom
+var marginright
+var timer
+var i_snow=0
+var x_mv=new Array();
+var crds=new Array();
+var lftrght=new Array();
+var browserinfos=navigator.userAgent
+var ie5=document.all&&document.getElementById&&!browserinfos.match(/Opera/)
+var ns6=document.getElementById&&!document.all
+var opera=browserinfos.match(/Opera/)
+var browserok=ie5||ns6||opera
+function randommaker(range) {
+        rand=Math.floor(range*Math.random())
+    return rand
+}
+function initsnow() {
+        if (ie5 || opera) {
+                marginbottom = document.body.scrollHeight
+                marginright = document.body.clientWidth-15
+        }
+        else if (ns6) {
+                marginbottom = document.body.scrollHeight
+                marginright = window.innerWidth-15
+        }
+        var snowsizerange=snowmaxsize-snowminsize
+        for (i=0;i<=snowmax;i++) {
+                crds[i] = 0;
+            lftrght[i] = Math.random()*15;
+            x_mv[i] = 0.03 + Math.random()/10;
+                snow[i]=document.getElementById("s"+i)
+                snow[i].style.fontFamily=snowtype[randommaker(snowtype.length)]
+                snow[i].size=randommaker(snowsizerange)+snowminsize
+                snow[i].style.fontSize=snow[i].size+'px';
+                snow[i].style.color=snowcolor[randommaker(snowcolor.length)]
+                snow[i].style.zIndex=1000
+                snow[i].sink=sinkspeed*snow[i].size/5
+                if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+                if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+                if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+                if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+                snow[i].posy=randommaker(2*marginbottom-marginbottom-2*snow[i].size)
+                snow[i].style.left=snow[i].posx+'px';
+                snow[i].style.top=snow[i].posy+'px';
+        }
+        movesnow()
+}
+function movesnow() {
+        for (i=0;i<=snowmax;i++) {
+                crds[i] += x_mv[i];
+                snow[i].posy+=snow[i].sink
+                snow[i].style.left=snow[i].posx+lftrght[i]*Math.sin(crds[i])+'px';
+                snow[i].style.top=snow[i].posy+'px';
+                if (snow[i].posy>=marginbottom-2*snow[i].size || parseInt(snow[i].style.left)>(marginright-3*lftrght[i])){
+                        if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+                        if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+                        if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+                        if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+                        snow[i].posy=0
+                }
+        }
+        var timer=setTimeout("movesnow()",50)
+}
+for (i=0;i<=snowmax;i++) {
+        document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"'>"+snowletter+"</span>")
+}
+if (browserok) {
+        window.onload=initsnow
+}
+  
+//]]>
+</script>
+    <!--<body>
+</body>-->
+      </body>
+<script>
+                                    function geturl(giatri){
+                                      var $temp = $("<input>");
+                                      $("body").append($temp);
+                                      $temp.val(giatri).select();
+                                      document.execCommand("copy");
+                                      $temp.remove();
+                                      alert("Copy Thành Công.");
+                                    }
+                                </script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="/public/js/CONFIG.js"></script>
+<script src="/public/js/app.js"></script>
+</body>
+</html>
+<audio id="autoplay" controls>
+  <source src= "https://drive.google.com/uc?id=1X4gxzYTIhYL-ZwehdGZQe7Ai8mKZHnwJ&export=dowload">
+</audio>
+
+<script>
+	document.getElementById('autoplay').play();
+</script>
