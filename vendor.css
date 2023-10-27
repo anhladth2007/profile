@@ -3,7 +3,7 @@
   width:350px;
   height:200px;
   padding:15px 20px;
-  background:#fff;
+  background:#ffffff;
   border-radius:30px;
   box-sizing:border-box;
   z-index:2;
@@ -29,7 +29,7 @@
 }
 
 .popup .description {
-  color:#222;
+  color: #000000;
   font-size:15px;
   padding:5px;
 }
