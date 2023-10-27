@@ -1,5 +1,5 @@
 html {
-  background-color:#eee;
+  background-color:#000000;
   font-family:inter,sans-serif;
   margin:0;
   padding:0;
@@ -42,7 +42,7 @@ body {
   width:411px;
   max-width:411px;
   min-height:823px;
-  background-color:#fff;
+  background-color:#000000;
   border-radius:30px;
   -webkit-box-shadow:7px 7px 20px -5px rgba(0,0,0,.4);
   box-shadow:7px 7px 20px -5px rgba(0,0,0,.1);
@@ -181,7 +181,7 @@ body {
   grid-template-columns:70px auto 65px;
   height:70px;
   width:100%;
-  background-color:#fff;
+  background-color:#000000;
   border-radius:20px;
   margin-bottom:15px;
   -webkit-box-shadow:7px 7px 20px -5px rgba(0,0,0,.4);
