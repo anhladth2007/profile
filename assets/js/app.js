@@ -198,7 +198,7 @@ if (skin && skin.tag) {
   const imgphu = await loadImage("phu/" + phu);
   const phuW = 150;
   const phuH = 150;
-  const phuX = 165;                         // hơi sát trái một chút
+  const phuX = 255;                         // hơi sát trái một chút
   const phuY = canvas.height - phuH - 35; // xuống dưới một chút
   drawImageCover(ctx, imgPhu, phuX, phuY, phuW, phuH);
 
