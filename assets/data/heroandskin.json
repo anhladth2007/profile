@@ -3,7 +3,7 @@
     "name": "Airi",
     "skins": [
       {"file":"airi-tnvt.jpg","displayName":"Thứ nguyên Vệ Thần","tag":"db5"},
-      {"file":"airi.jpg","displayName":"","tag":""}
+      {"file":"airi.jpg","displayName":"Mặc Định","tag":""}
     ]
   },
   {
@@ -31,13 +31,13 @@
     "name": "Eland'orr",
     "skins": [
       {"file":"elandorr-mgtc.jpg","displayName":"Mộng giới thần chủ","tag":"ssschh"},
-      {"file":"elandorr.jpg","displayName":"","tag":""}
+      {"file":"elandorr.jpg","displayName":"Mặc Định","tag":""}
     ]
   },
   {
     "name": "Hayate",
     "skins": [
-      {"file":"hayate.jpg","displayName":"","tag":""},
+      {"file":"hayate.jpg","displayName":"Mặc Định","tag":""},
       {"file":"hayate-bl.jpg","displayName":"Bạch lang","tag":"ahh"},
       {"file":"hayate-nl.jpg","displayName":"Ngân lang","tag":"valentine"},
       {"file":"hayate-ttvt.jpg","displayName":"Tử thần vũ trụ","tag":"sshh"},
@@ -61,7 +61,7 @@
   {
     "name": "Nakroth",
     "skins": [
-      {"file":"nakroth.jpg","displayName":"","tag":""},
+      {"file":"nakroth.jpg","displayName":"Mặc Định","tag":""},
       {"file":"nakroth-killua.jpg","displayName":"Killua","tag":"hxh"},
       {"file":"nakroth-lqs.jpg","displayName":"Lôi Quang Sứ","tag":"sshh"},
       {"file":"nakroth-tnvt.jpg","displayName":"thứ nguyên vệ thần","tag":"db3"},
