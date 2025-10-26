@@ -6,7 +6,6 @@ const tuongSelect = document.getElementById("tuongSelect");
 const skinSelect = document.getElementById("skinSelect");
 const khungSelect = document.getElementById("khungSelect");
 const phepSelect = document.getElementById("phepSelect");
-const phuSelect = document.getElementById("phuSelect");
 const thongthaoSelect = document.getElementById("thongthaoSelect");
 const trikiSelect = document.getElementById("trikiSelect");
 const vienvangCheck = document.getElementById("vienvangCheck");
@@ -17,7 +16,6 @@ const saveBtn = document.getElementById("saveBtn");
 let heroes = [];
 let khungs = [];
 let pheps = [];
-let phus = [];
 let thongthaos = [];
 let trikis = [];
 const vienvangFile = "vienvang.png";
@@ -39,14 +37,12 @@ async function loadAllData() {
   heroes = await loadJSON("assets/data/heroandskin.json");
   khungs = await loadJSON("assets/data/khung.json");
   pheps = await loadJSON("assets/data/phepbotro.json");
-  phus = await loadJSON("assets/data/phu.json");
   thongthaos = await loadJSON("assets/data/thongthao.json");
   trikis = await loadJSON("assets/data/triki.json");
   
   populateSelect(tuongSelect, heroes, true);
   populateSelect(khungSelect, khungs);
   populateSelect(phepSelect, pheps);
-  populateSelect(phuSelect, phus);
   populateSelect(thongthaoSelect, thongthaos);
   populateSelect(trikiSelect, trikis);
 
@@ -114,7 +110,6 @@ tuongSelect.addEventListener("change", () => {
 skinSelect.addEventListener("change", drawCanvas);
 khungSelect.addEventListener("change", drawCanvas);
 phepSelect.addEventListener("change", drawCanvas);
-phuSelect.addEventListener("change", drawCanvas);
 thongthaoSelect.addEventListener("change", drawCanvas);
 trikiSelect.addEventListener("change", drawCanvas);
 vienvangCheck.addEventListener("change", drawCanvas);
@@ -137,7 +132,6 @@ async function drawCanvas(){
   const skin = getSelectedSkin();
   const khung = khungSelect.value;
   const phep = phepSelect.value;
-  const phu = phuSelect.value;
   const thongthao = thongthaoSelect.value;
   const triki = trikiSelect.value;
   const vien = vienvangCheck.checked ? vienvangFile : null;
@@ -193,14 +187,6 @@ if (skin && skin.tag) {
   const trikiX = 165;                         // hơi sát trái một chút
   const trikiY = canvas.height - trikiH - 35; // xuống dưới một chút
   drawImageCover(ctx, imgTriki, trikiX, trikiY, trikiW, trikiH);
-
-  // Phụ Trợ
-  const imgphu = await loadImage("phu/" + phu);
-  const phuW = 150;
-  const phuH = 150;
-  const phuX = 255;                         // hơi sát trái một chút
-  const phuY = canvas.height - phuH - 35; // xuống dưới một chút
-  drawImageCover(ctx, imgPhu, phuX, phuY, phuW, phuH);
 
   // Layer 7: Viền vàng
   if(vien){
